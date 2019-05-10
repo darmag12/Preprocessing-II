@@ -1,7 +1,7 @@
 .home {
 
   .content-section {
-    margin: 30px 0;
+    margin: 3rem 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -16,16 +16,17 @@
     .img-content {
       width: 48%;
       padding-left: 1%;
+      
 
       img {
-        border-radius: 10px;
+        border-radius: 1rem;
       }
     }
   }
 
   .inverse-content {
-    padding-bottom: 30px;
-    border-bottom: 2px dashed @navigation-border;
+    padding-bottom: 3rem;
+    border-bottom: .2rem dashed @navigation-border;
 
     .text-content {
       padding-left: 1%;
@@ -40,22 +41,35 @@
 
   .content-destination {
     width: 75%;
-    margin: 0 auto 30px;
+    margin: 0 auto 3rem;
 
     img {
-      border-radius: 10px;
+      border-radius: 1rem;
     }
   }
 
   .content-pick {
-    padding-top: 30px;
-    border-top: 2px dashed @navigation-border;
+    padding-top: 3rem;
+    border-top: .2rem dashed @navigation-border;
     display: flex;
     justify-content: space-between;
 
     .destination {
       width: 30%;
-      margin-bottom: 30px;
+      margin-bottom: 3rem;
     }
   }
+  div img{
+    border-top: @border-d;
+  }
+  .btn{
+    .custom-btn();
+    .center();
+  }
 }// home
+
+// media quary
+@media @mobile {
+  
+
+}
